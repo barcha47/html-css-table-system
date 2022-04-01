@@ -1,0 +1,50 @@
+table {
+    border-collapse: collapse;
+    font-family: Bahnschrift Light;
+    width: 70%;
+    font-size: 18px;
+    
+}
+table th:first-child {
+    border-radius: 6px 0 0 0;
+}
+table th:last-child {
+    border-radius: 0 6px 0 0;
+}
+
+
+th{
+    background-color: rgb(71, 158, 110);
+    color: white;
+}
+
+td, th {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    text-align: center;
+
+}
+
+table tr:nth-child(even) {
+    background-color: #dddddd;
+    color: rgb(71, 158, 110);
+    font-weight: bold;
+}
+table tr:nth-child(odd) {
+    
+    color: #666464
+}
+tbody{
+    border-bottom: 3px solid rgb(71, 158, 110);
+}
+h2{
+    font-family: Bahnschrift Light;
+    font-size: 20px;
+    text-align: center;
+    width: 40%;
+}
+
+h2:hover{
+    border-bottom: 2px solid lightgreen;
+    border-top: 2px solid lightgreen;
+}
